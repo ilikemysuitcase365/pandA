@@ -1,10 +1,11 @@
-def __init__(self, name, capacity):
-        self.name = name
-        self.capacity = capacity
+class vehicle:
+        def __init__(self, name, capacity):
+                self.name = name
+                self.capacity = capacity
 
-def fare(self):
-        """Calculates the base fare for the vehicle."""
-        return self.capacity * 100
+        def fare(self):
+                """Calculates the base fare for the vehicle."""
+                return self.capacity * 100
 
 class Bus(vehicle):
     def __init__(self, name, capacity):
